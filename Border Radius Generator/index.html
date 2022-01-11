@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Radius Border Generator</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+
+<body>
+    <div class="main">
+        Output: <div id="output"></div>
+            Result: 
+            <textarea name="textBox" id="textBox" rows="2" cols="50">border-radius: 0% 0% 0% 0%</textarea>
+            <div class="slidecontainer">
+            <label for="topLeftSlider">Top Left</label>
+            <input type="range" min="0" max="100" value="0" class="slider" id="topLeftSlider">
+            <label for="topRightSlider">Top Right</label>
+            <input type="range" min="0" max="100" value="0" class="slider" id="topRightSlider">
+            <label for="bottomRightSlider">Bottom Right</label>
+            <input type="range" min="0" max="100" value="0" class="slider" id="bottomRightSlider">
+            <label for="bottomLeftSlider">Bottom Left</label>
+            <input type="range" min="0" max="100" value="0" class="slider" id="bottomLeftSlider">
+            </div>
+            <button id="reset" class="btn">Reset</button>
+        
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
